@@ -1,0 +1,47 @@
+.reg-bg{
+    background-image: url('../../assets/img/2.jpg');
+    background-size: cover;
+    height: 650px;
+    width: 100%;
+}
+
+.btn2registe-btn {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.h1 h1{
+    color: #ffffff;
+    text-align: center;
+    background-color: #b6303052;
+    font-family: initial ;
+  font-weight:400;
+}
+.register-form {
+  
+    background: rgba(255,255,255,0.2);
+    padding: 18px;
+}
+
+.regmain{
+    
+    width: 30%;
+text-align: center;
+padding-top: 80px;
+}
+
+.form-group{
+    line-height: 14px;
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+.btn-block {
+ 
+    margin-top: 16px;
+    font-weight: 600;
+    border-radius: 20px;
+}
+.form-control {
+   
+    border: 2px solid #ffffff;
+ }

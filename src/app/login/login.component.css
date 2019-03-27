@@ -1,0 +1,48 @@
+.log-bg{
+    background-image: url('../../assets/img/10.jpg');
+    background-size: cover;
+    height: 650px;
+    width: 70%;
+}
+.container{
+
+    padding: 41px;
+}
+.logmain{
+background-color: #a0968c1f;
+width: 27%;
+padding-top: 40px;
+margin: auto;
+position: absolute;
+top: 100px;
+right: 30px;
+border-radius: 10px;
+}
+.h1 h1{
+    color: #ff5722c7;
+    font-family: initial;
+}
+
+.form-group{
+    line-height: 14px;
+    font-size: 16px;
+    font-weight: 700;
+    font-weight:400;
+    
+}
+.btn-info {
+    color: #a93421;
+    font-weight: 900;
+    font-size: larger;
+    background-color: #9e9e9e8f;
+    border-color: antiquewhite;
+    border-radius: 20px;
+}
+.logbtn{
+    margin-left: 20px;
+    
+}
+.pull-right
+{
+    margin-left: 30px;
+}

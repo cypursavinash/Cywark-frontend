@@ -1,0 +1,32 @@
+<div class="reg-bg">
+  <div class="container regmain">
+    <form class="register-form">
+
+      <div class="h1">
+        <h1>Register Here</h1>
+      </div>
+      <div class="form-group">
+       
+        <input type="text" name="user" class="form-control" [(ngModel)]="user" id="name" placeholder=" Full Name" required>
+      </div>
+
+      <div class="form-group">
+       
+        <input type="email" name="email" class="form-control" [(ngModel)]="email" id="mail" placeholder=" Email Id" required>
+      </div>
+
+      <div class="form-group">
+     
+        <input type="password" name="pass" class="form-control" [(ngModel)]="pass" id="password" placeholder=" Password" required>
+      </div>
+
+      <div class="form-group">
+         <input type="text" name="mob" class="form-control" [(ngModel)]="mob" id="pnumber" placeholder="Mobile Number" required>
+      </div>
+
+     
+      <button type="submit" class="btn btn-info btn-block" (click)="Register()">Register</button>
+      
+    </form>
+  </div>
+</div>
