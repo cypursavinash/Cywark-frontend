@@ -5,6 +5,8 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { RegComponent } from './reg/reg.component';
 import { LoginComponent } from './login/login.component';
+import { HttpClientModule } from '@angular/common/http';
+import { TestService } from './/test.service';
 
 @NgModule({
   declarations: [
@@ -14,9 +16,13 @@ import { LoginComponent } from './login/login.component';
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [
+    TestService
+  ],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
+ 
