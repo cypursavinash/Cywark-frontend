@@ -7,12 +7,14 @@ import { RegComponent } from './reg/reg.component';
 import { LoginComponent } from './login/login.component';
 import { HttpClientModule } from '@angular/common/http';
 import { TestService } from './/test.service';
+import { DetailComponent } from './detail/detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     RegComponent,
-    LoginComponent
+    LoginComponent,
+    DetailComponent
   ],
   imports: [
     BrowserModule,

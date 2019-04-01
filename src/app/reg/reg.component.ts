@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
+
 @Component({
   selector: 'app-reg',
   templateUrl: './reg.component.html',
@@ -8,25 +9,18 @@ import { HttpClient } from '@angular/common/http';
 })
 export class RegComponent implements OnInit {
   registerUrl = 'http://localhost:5001/register'
-
-  constructor(public http:HttpClient) {
-
-
-    
+  heroForm: any;
+  constructor(public http:HttpClient) { 
   }
-
-    user='';
+    user= '';
     email='';
     pass='';
     cpass='';
     mob='';
     btn1='';
-    
-  
 
-  ngOnInit() {
-  }
-
+  ngOnInit(){} 
+   
   register()
     {
       var name=this.user;
