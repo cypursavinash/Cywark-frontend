@@ -1,0 +1,147 @@
+ .body
+ {
+     background-color:  #ededed;
+ }
+ .page-header h1
+ {
+    font-family: "Helvetica Neue",Arial,"Lucida Grande",sans-serif;
+    font-size:25px;
+    color: #00355F;
+    font-weight:700;
+    
+ }
+ i.fa.fa-clock-o {
+   color: #2f7000;
+   font-size: 19px;
+   padding-right: 5px;
+}
+ .confidence-message
+ {
+    color:#2f7000;
+    /* margin-left: 1.6em; */
+    font-family: "Helvetica Neue",Arial,"Lucida Grande",sans-serif;
+    font-size:15px;
+    margin-top:10px;
+
+ }
+ .hotel-details 
+ {
+    /* about hotel */
+    float:right;
+ }
+ .details
+ {
+   background-color: #fff;
+ }
+ .personal-details
+      /* About user */
+ {
+
+padding:10px;
+ 
+ }
+  
+ i.fa.fa-user
+{
+   color:#00355F;
+   padding:12px;
+   font-size:25px;
+   padding-top:20px;
+   
+}
+ .welcome-msg
+ {
+    color: #2f7000;
+   font-size:13px;
+   font-weight: bold;
+   display:inline;
+
+ }
+ .room-warning
+ {
+    margin-bottom:0px;
+ }
+ i.fa.fa-check
+ {
+    color:#2f7000;
+    font-size:12px;
+ }
+ .facility
+ {
+    color:#2f7000;
+    font-size:13px;
+ }
+ .form-group
+   {
+      width:80%;
+       
+   }
+   .form-group label {
+      font-size: 13px;
+      font-weight: 700;
+      font-size: 13px;
+      line-height: 1.4;
+      color: #616161;
+      font-weight: 600;
+      display: block;
+      margin-top: 10px;
+  }
+  input.form-control {
+   
+   border-top-color: gray;
+   border-top-width: 1px;
+   width: 85%;
+}
+   .form-check label
+   {
+      font-size:13px;
+   }
+   .fa.fa-credit-card
+   {
+      color:#00355F;
+      padding:12px;
+      font-size:22px;
+      margin-left: 10px;
+   }
+   .card-security
+   {
+      color:#2f7000;
+      font-size:13px
+
+   }
+   .gape
+   {
+      padding-left:10px;
+   }
+  .credit-debit
+   {
+      color: #00255F;
+      font-size: 13px;
+      font-family: "Helvetica Neue",Arial,"Lucida Grande",sans-serif;
+
+   }
+   .card-pic img
+    /* CARD PICS */
+   {
+      width:40px;
+      padding:2px;
+   }
+   .holder-input
+   /* Cardholder inputapp.module. */
+   {}
+  
+   .card-num-input {
+      /* Card number input type text */
+      width: 60%;
+  }
+  .dropdown-toggle
+  /* Dropdown */
+  {
+     border: 1px solid gray;
+     border-radius: 2px;
+     margin-right:5px;
+  }
+  .cvv-number
+  {
+     width:30%;
+  }
