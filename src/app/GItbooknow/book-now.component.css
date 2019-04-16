@@ -8,6 +8,7 @@
     font-size:25px;
     color: #00355F;
     font-weight:700;
+    padding-bottom:12px;
     
  }
  i.fa.fa-clock-o {
@@ -22,6 +23,7 @@
     font-family: "Helvetica Neue",Arial,"Lucida Grande",sans-serif;
     font-size:15px;
     margin-top:10px;
+    margin-bottom: 14px;
 
  }
  .hotel-details 
@@ -32,22 +34,21 @@
  .details
  {
    background-color: #fff;
- }
+   padding:18px;
+
+
+ margin-bottom: 18px; 
+}
  .personal-details
       /* About user */
  {
-
-padding:10px;
  
  }
-  
  i.fa.fa-user
 {
    color:#00355F;
-   padding:12px;
    font-size:25px;
-   padding-top:20px;
-   
+   padding-top:8px;
 }
  .welcome-msg
  {
@@ -55,7 +56,7 @@ padding:10px;
    font-size:13px;
    font-weight: bold;
    display:inline;
-
+   font-family: "Helvetica Neue",Arial,"Lucida Grande",sans-serif;
  }
  .room-warning
  {
@@ -76,6 +77,11 @@ padding:10px;
       width:80%;
        
    }
+   
+   .form-control:focus {
+      border-color: black;
+      box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(10, 10, 10, 0.952);
+  }
    .form-group label {
       font-size: 13px;
       font-weight: 700;
@@ -99,9 +105,9 @@ padding:10px;
    .fa.fa-credit-card
    {
       color:#00355F;
-      padding:12px;
-      font-size:22px;
-      margin-left: 10px;
+       
+      font-size:20px;
+      
    }
    .card-security
    {
@@ -144,4 +150,122 @@ padding:10px;
   .cvv-number
   {
      width:30%;
+     margin-bottom:18px;
   }
+  .fa.fa-envelope
+  {
+   color:#00355F;
+   font-size:25px;
+   padding:12px;
+   padding-top:20px;
+   
+  }
+  .Confirm-section
+  {
+     background-color: #fff;
+     margin-top:8px;
+  }
+  .confirm-booking
+      /* booking confirmation by genrating password and mail */
+      {
+   background-color:#f5f5f5;
+   align-item:center;
+   padding-left:13px;
+   margin-bottom:20px;
+   
+  }
+  .confirm-mail
+  {   
+     /* confirm your mail input box */
+     margin-top:15px;
+     marign-bottom:0;
+     color: #616161;
+     font-size:13px;
+     font-family: "Helvetica Neue",Arial,"Lucida Grande",sans-serif;     
+  }
+.manage-booking
+{
+   font-size:17px;
+   font-family: "Helvetica Neue",Arial,"Lucida Grande",sans-serif;  
+   margin-bottom:17px;
+   font-weight:bold;
+}
+.option
+   /* what convenience a hotel is provide */
+{
+   color:#2f7000;
+   font-size: 13px;
+   margin-right:10px;
+}
+.password-input
+
+{
+   width:60%;
+}
+.instruction
+{
+   margin-top:8px;
+   background-color: #fff;
+}
+.imp-info
+/* imp info about your booking */
+{
+   font-size:15px;
+   font-family: "Helvetica Neue",Arial,"Lucida Grande",sans-serif;  
+   padding:15px;
+   font-weight: bold;
+
+}
+.instruction-points
+{
+   padding:10px;
+}
+.instruction-points ul li
+{
+   padding-bottom:10px;
+   font-size:13px;
+   font-weight:300;
+   font-family: "Helvetica Neue",Arial,"Lucida Grande",sans-serif;  
+
+}
+.btn.confrim
+/* Confirm booking button */
+{
+   background-color:#ffbe00;
+   color:black;
+    
+   margin-left:25px;
+   font-weight:bold;
+   width:50%;
+   font-size:18px;
+}
+.fa-angle-right
+{
+   font-size:20px;
+   padding:8px;
+}
+
+@media screen and (max-width:768px)
+{
+
+   .fa.fa-envelope , .fa.fa-user , .fa.fa-credit-card
+   {
+      display:none;
+   }
+   .Confirm-section   {
+      padding-left:10px;
+   }
+   .option
+   {
+      width:95%;
+      margin-left:13px;
+   }
+   .gape
+   {
+      display:block;
+   }
+   .btn.confrim
+   {
+      width:auto;
+   }
+}
