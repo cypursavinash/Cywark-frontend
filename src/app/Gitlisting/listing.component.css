@@ -1,0 +1,239 @@
+
+/* header CSS END */
+/* .navbar-dark .navbar-nav .nav-link {
+    color: black;
+    font-weight: 200;
+   }
+   .bg-dark {
+    background-color: white !important;
+    width:100%;
+    text-align: center;
+   }
+   .bg-dark img
+   {
+    height: 30px;
+    width:100px;   
+   }
+   .nav-item{
+    font-size: 16px;  
+   }
+   .navbar-toggler {
+    background-color: black;
+   }
+   a.nav-link::after{
+    content: '|';
+    color:lightgray;
+    display: inline;
+    padding: 0 5px;
+   }
+    .navbar-header
+    {
+        display: inline;
+        position: absolute;
+    }
+   .navbar
+   {
+       float:right;
+   }
+ */
+   .imp-area
+   /* MAIN CONTENT */
+   {
+        
+       box-shadow:0 1px 4px rgba(41,51,57,.5);
+       /* margin-bottom: 8px; */
+       font-family: Arial,Helvetica,Sans,Sans-Serif,Sans Serif;
+       /* padding: 0; */
+       margin:10px 0px !important   ;
+       border:1px solid  rgba(41,51,57,.5) ;
+        
+   }
+   .hotel-pic  
+   {           
+width:100%;
+       height: 200px ;
+         margin:auto;
+       padding:0;
+   }
+   .hotel-pic img
+   {           
+        width:100%;
+       height: 100%;
+       padding:5px  ;
+   }
+.imp-area p
+{
+    border-top: 1px solid #ebeced;
+    padding:8px;
+    margin:0;
+    letter-spacing: -0.5px;
+}
+.imp-area span
+{
+    font-size: 14px;
+}
+.imp-area .col-sm-6
+{
+    border-right:1px solid #ebeced;
+} 
+h4
+{
+    margin-top:1rem;
+    margin-bottom:0;
+}
+   .fa.fa-star
+    {
+        color:rgb(246,171,63);
+        /* background-color: yellow; */
+            /* padding: 0; */
+    }
+    .col3.btn .btn-success
+    {
+        width:100%;
+    }
+/* FOOTER */
+.footer
+{
+    color:white;
+    background-color: #293339;
+}
+.footer a
+{
+    color:white;
+    background-color: 293339;
+} 
+ 
+.footer-content {
+    /* width: 60%; */
+    padding-top: 32px;
+    font-size: 14px;
+}
+.footer-head
+/* FOOTER FIRST ROW */
+{
+    margin-bottom: 20px;
+}
+   .social a
+   /* .social media icons */
+   {   
+        color: rgb(55,69,77) !important;
+        margin-right:5px;   
+        margin-bottom:15px;  
+        padding: 6px;
+        font-size: 20px;
+        width: 30px;
+         
+        text-align: center;
+        text-decoration: none;
+        /* margin: 2px ; */
+        border-radius:165px;
+        background-color: white;    
+    }
+ .tool
+ /* LINKS I.E. IN FOOTER TAG */
+ {
+     padding-bottom:auto
+ }
+  
+ .tool .col-sm-4
+ {
+     margin-bottom:10px;
+ }
+.last-section
+{
+padding-top:35px;
+margin-left: 10%;
+padding-right: 20px;
+}  
+ hr
+{ 
+    border:1px solid rgb(142,162,146);
+    width:100% ;
+}
+.last-footer
+{
+    font-size: 12px;
+    background-color: rgb(55,69,77);
+     height: auto;
+    width:100%;
+     text-align: center;
+}
+.last-footer h2
+{
+    padding-top:15px;
+    color:white;
+    font-weight: bolder;
+}
+
+.last-footer p   
+{    
+    color:rgb(142,162,146);
+    background-color: rgb(55,69,77);    
+}
+   @media  screen and (min-width: 480px )  
+    {
+            .main
+            {
+              width:75%;
+            }
+            
+            .imp-area
+            {
+                margin:auto;
+                padding:0;
+            }
+            .hotel-pic img 
+            {
+                height: 100%;
+                width:100%;
+            }
+            .footer-content
+            {
+                width:75%;
+               margin:auto;
+            }
+            
+            
+            } 
+            @media  screen and (max-width: 480px ) {
+                p {
+                    margin:2px;
+                }
+                
+                .imp-area p
+                {
+                    padding: 4px;
+                    
+                }
+                .hotel-pic
+                {
+                    padding: 0%;
+                }
+                .hotel-pic img
+                {
+                    width:100%;
+                    padding:0;
+                    height: 150px;
+                }
+                .btn-success
+                {
+                    width:100%;
+                    margin-bottom:5px;
+                }
+                .mail
+                     {
+                margin-top:10px;
+                        }
+                .social-icon
+                {
+                    padding-top:16px;
+                }
+                .tool .col-sm-4
+                {
+                    margin-bottom:16px;
+                }
+            }   
+            .last-footer p
+            {
+                padding-bottom: 10px; 
+            }

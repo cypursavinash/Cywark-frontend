@@ -5,6 +5,9 @@ import { RouterModule,Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { RegComponent } from './reg/reg.component';
 import { LoginComponent } from './login/login.component';
+import { HttpClientModule } from '@angular/common/http';
+import { TestService } from './/test.service';
+import { DetailComponent } from './detail/detail.component';
 
 const routes: Routes = [
   {path:'register',component:RegComponent},
@@ -15,14 +18,19 @@ const routes: Routes = [
   declarations: [
     AppComponent,
     RegComponent,
-    LoginComponent
+    LoginComponent,
+    DetailComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     RouterModule.forRoot(routes)
+    HttpClientModule
   ],
-  providers: [],
+  providers: [
+    TestService
+  ],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
+ 
