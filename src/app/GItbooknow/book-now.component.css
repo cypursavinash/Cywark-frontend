@@ -206,6 +206,7 @@
 {
    margin-top:8px;
    background-color: #fff;
+   margin-bottom:10px;
 }
 .imp-info
 /* imp info about your booking */
@@ -233,7 +234,7 @@
 {
    background-color:#ffbe00;
    color:black;
-    
+  margin-bottom:10px;  
    margin-left:25px;
    font-weight:bold;
    width:50%;
@@ -265,6 +266,10 @@
 {
     margin-bottom: 20px;
 }
+/* .mail-input
+{
+   width:100%;
+} */
    .social a
    /* .social media icons */
    {   

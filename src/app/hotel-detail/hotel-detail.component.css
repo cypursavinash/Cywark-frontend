@@ -1,0 +1,101 @@
+.container
+{
+    margin-top:30px;
+}
+
+.hotel-img img
+        /* hotel img */
+{
+    height:400px;
+    width: auto;
+    padding:10px;
+}
+.hotel-info h4
+            /* hotel name */
+{
+
+    color: #4a4a4a;
+    font-family: Averta;
+    font-weight: 800;   
+    line-height: 1.2;
+    margin-bottom:0;
+    margin:0px 0px 4px;
+}
+.hotel-location
+        /* where hotel exist */
+{
+
+color:#9b9b9b;
+font-family: roboto;
+font-size:16px;
+    
+margin-bottom:8px;
+}
+.facility
+        /* Hotel may provide */
+{   
+    margin-top:8px;
+    color:rgb(0,132,163);
+}
+.standard
+{
+    border:1px  solid;
+    margin-right:5px;
+    padding:3px;
+    height: 10px;
+    width:auto;
+    font-size:12px;
+}
+.rating span 
+{
+    color:#0EB550;
+    font-size:14px;
+    font-style:roboto;
+}
+.price
+{
+    display: inline;
+    
+}
+.rate
+{
+    font-size:25px;
+}
+.Refundable
+        /* Money refund */
+{
+    color:#0EB550;
+    font-size:16px;
+    font-style:roboto;
+}
+.trust-section
+{
+    background-color: rgb(0,132,163);
+    display: inherit;
+}
+.trust-img img
+        /* .trust-img  */
+{
+    height: auto;
+    width: 100%;
+    margin-left: 41px;
+    padding: 10px;
+}
+.promise-content
+    /* promises that is placed in trust section */
+{
+ /* margin:auto;    */
+ color:white;
+ margin:auto;   
+ 
+}
+.promise-content span
+{   margin:10px;
+    
+    font-size:14px;
+    font-weight:bold;
+}
+.promise-content i
+{
+    margin:5px;
+}
