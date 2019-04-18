@@ -10,6 +10,12 @@
     width:100%;
     padding:10px;
 }
+.hotel-info
+{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
 .hotel-info h4
             /* hotel name */
 {
