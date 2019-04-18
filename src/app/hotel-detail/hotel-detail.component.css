@@ -7,7 +7,7 @@
         /* hotel img */
 {
     height:400px;
-    width: auto;
+    width:100%;
     padding:10px;
 }
 .hotel-info h4
@@ -31,7 +31,7 @@ font-size:16px;
     
 margin-bottom:8px;
 }
-.facility
+.offers
         /* Hotel may provide */
 {   
     margin-top:8px;
@@ -98,4 +98,37 @@ margin-bottom:8px;
 .promise-content i
 {
     margin:5px;
+}
+.facility
+{
+    display:inline-block;
+}
+.facility  span
+{
+    color: #9b9b9b;
+
+}
+.facility   i
+{
+    margin:5px;
+}
+@media only screen and (max-width: 768px) {
+ .hotel-info
+ {
+     margin-left:10px;
+ }
+.btn.btn-success
+{
+    width:50%;
+    margin-bottom:20px;
+}
+.trust-img img
+{
+     
+    margin: 0;
+}
+.promise-content span
+{
+    display: table;
+}
 }
