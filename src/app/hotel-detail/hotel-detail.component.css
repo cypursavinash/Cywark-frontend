@@ -15,6 +15,8 @@
 display: flex;
 flex-direction: column;
 justify-content: space-between;
+font-style:"Averta";
+font-size: 24px;
 }
 .hotel-info h4
             /* hotel name */
@@ -23,7 +25,7 @@ justify-content: space-between;
     color: #4a4a4a;
     font-family: Averta;
     font-weight: 800;   
-    line-height: 1.2;
+     
     margin-bottom:0;
     margin:0px 0px 4px;
 }
@@ -33,8 +35,7 @@ justify-content: space-between;
 
 color:#9b9b9b;
 font-family: roboto;
-font-size:16px;
-    
+font-size:16px;    
 margin-bottom:8px;
 }
 .offers
@@ -78,14 +79,15 @@ margin-bottom:8px;
 {
     background-color: rgb(0,132,163);
     display: inherit;
+    margin-left:20px;
 }
 .trust-img img
         /* .trust-img  */
 {
     height: auto;
     width: 100%;
-    margin-left: 41px;
-    padding: 10px;
+     
+    padding: 15px;
 }
 .promise-content
     /* promises that is placed in trust section */
@@ -107,7 +109,8 @@ margin-bottom:8px;
 }
 .facility
 {
-    display:inline-block;
+        margin-top:20px;
+
 }
 .facility  span
 {
@@ -117,6 +120,41 @@ margin-bottom:8px;
 .facility   i
 {
     margin:5px;
+}
+.facility .fa
+{
+    color:black;
+    margin-right:20px;
+}
+
+.full{
+    width: 100%;
+    margin-left:15px;
+}
+
+.restro h4
+    /* near by places of located cafe */
+{
+ margin-left:10px;
+margin-top:20px;
+font-family:"Averta";
+font-size: 24px;
+font-weight: 800;
+}
+
+.restro p , .stands p
+/* restro name and its distance */
+
+{
+    margin:0;
+    
+        
+}
+
+.restro-name p , .restro-distance p, .station-name p, .station-distance p
+
+{
+     color: #9b9b9b;
 }
 @media only screen and (max-width: 768px) {
  .hotel-info
@@ -131,10 +169,15 @@ margin-bottom:8px;
 .trust-img img
 {
      
-    margin: 0;
+    padding-top: 40px;
 }
 .promise-content span
 {
     display: table;
+}
+.stands
+/* about stations distace */
+{
+    margin-top:15px;
 }
 }
