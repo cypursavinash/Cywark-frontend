@@ -11,6 +11,7 @@ import { DetailComponent } from './detail/detail.component';
 import { BookNowComponent } from './GItbooknow/book-now.component';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { HotelDetailComponent } from './hotel-detail/hotel-detail.component';
+// import { Http, Response } from '@angular/http';
 const routes: Routes = [
   {path:'register',component:RegComponent},
   {path:'login',component:LoginComponent}
@@ -30,11 +31,10 @@ const routes: Routes = [
     FormsModule,
     RouterModule.forRoot(routes),
     HttpClientModule,
-    AngularFontAwesomeModule
+    AngularFontAwesomeModule,
+    // Http
   ],
-  providers: [
-    TestService
-  ],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule {}

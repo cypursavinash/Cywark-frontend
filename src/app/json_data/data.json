@@ -1,0 +1,10 @@
+ [{
+    "id": 1,
+    "name": "Home",
+    "routerLink": "/home-comp"
+},
+{
+    "id": 2,
+    "name": "&Uuml;ber uns",
+    "routerLink": "/about-us-comp"
+}]
