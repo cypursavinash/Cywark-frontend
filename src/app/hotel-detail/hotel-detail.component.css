@@ -2,7 +2,8 @@
 {
     margin-top:30px;
 }
-
+ 
+   
 .hotel-img img
         /* hotel img */
 {
@@ -17,6 +18,8 @@ flex-direction: column;
 justify-content: space-between;
 font-style:"Averta";
 font-size: 24px;
+background-color: white;
+margin: 10px 0px;
 }
 .hotel-info h4
             /* hotel name */
@@ -27,7 +30,7 @@ font-size: 24px;
     font-weight: 800;   
      
     margin-bottom:0;
-    margin:0px 0px 4px;
+     
 }
 .hotel-location
         /* where hotel exist */
@@ -41,7 +44,7 @@ margin-bottom:8px;
 .offers
         /* Hotel may provide */
 {   
-    margin-top:8px;
+    
     color:rgb(0,132,163);
 }
 .standard
@@ -62,7 +65,7 @@ margin-bottom:8px;
 .price
 {
     display: inline;
-    
+    margin-bottom: 7%;
 }
 .rate
 {
@@ -75,11 +78,18 @@ margin-bottom:8px;
     font-size:16px;
     font-style:roboto;
 }
+.btn.btn-success
+{
+    height: 50%;
+    width: 50%;
+}
 .trust-section
 {
     background-color: rgb(0,132,163);
     display: inherit;
-    margin-left:20px;
+    margin-left:10px;
+    border:1px solid gray;
+    box-shadow: 4px 4px 2px 2px rgb(207, 206, 206);
 }
 .trust-img img
         /* .trust-img  */
@@ -109,8 +119,12 @@ margin-bottom:8px;
 }
 .facility
 {
-        margin-top:20px;
-
+        margin-top:30px;
+        background-color: white;
+        margin-bottom: 20px;
+        border:1px solid black;
+        box-shadow: 4px 4px 2px 2px rgb(207, 206, 206);
+        padding:10px;
 }
 .facility  span
 {
@@ -130,6 +144,7 @@ margin-bottom:8px;
 .full{
     width: 100%;
     margin-left:15px;
+    padding:5px;
 }
 
 .restro h4
@@ -141,14 +156,19 @@ font-family:"Averta";
 font-size: 24px;
 font-weight: 800;
 }
-
+.near-by-landmarks
+{
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 4px 4px 1px 1px  rgb(207, 206, 206);
+    
+}
 .restro p , .stands p
 /* restro name and its distance */
 
 {
-    margin:0;
-    
-        
+    margin:0;  
+    padding-left:5px;    
 }
 
 .restro-name p , .restro-distance p, .station-name p, .station-distance p
