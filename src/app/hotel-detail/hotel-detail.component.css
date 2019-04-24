@@ -83,22 +83,7 @@ margin-bottom:8px;
     height: 50%;
     width: 50%;
 }
-.trust-section
-{
-    background-color: rgb(0,132,163);
-    display: inherit;
-    margin-left:10px;
-    border:1px solid gray;
-    box-shadow: 4px 4px 2px 2px rgb(207, 206, 206);
-}
-.trust-img img
-        /* .trust-img  */
-{
-    height: auto;
-    width: 100%;
-     
-    padding: 15px;
-}
+ 
 .promise-content
     /* promises that is placed in trust section */
 {
@@ -183,17 +168,28 @@ font-weight: 800;
  .hotel-info
  {
      margin-left:10px;
+     height: 80%;
+ }
+ .hotel-img img
+ {
+     height: 100%;
+     width:80%;
  }
 .btn.btn-success
 {
     width:50%;
-    margin-bottom:20px;
-}
-.trust-img img
-{
      
-    padding-top: 40px;
 }
+.price
+{
+    margin-bottom:0;
+}
+.facility
+{
+    margin-top:0;
+
+}
+ 
 .promise-content span
 {
     display: table;
@@ -203,4 +199,20 @@ font-weight: 800;
 {
     margin-top:15px;
 }
+}
+@media (min-width: 576px)
+{
+    .facility span  .d-sm-block {
+    display: inline-block !important;
+     margin-bottom: 0;
+}
+}
+@media (max-width:400px)
+{
+ .facility .fa
+ {
+     display: none;
+ }
+
+
 }
