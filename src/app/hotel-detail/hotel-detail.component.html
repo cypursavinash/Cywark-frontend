@@ -3,8 +3,8 @@
     <div class="page-body">
       <div class="item"><img src="../assets/hotelpic1.jpg"></div>
       <div class="hotel-info">
-        <h4> LAKE CITY PALACE </h4>
-        <span><i class="fa fa-map-marker" aria-hidden="true"></i> Udaipur, Rajasthan</span>
+        <h4>  {{locationName}} </h4>
+        <span><i class="fa fa-map-marker" aria-hidden="true"></i>{{locationPlace}}</span>
         <!-- <div class="offers">
           <span class="standard"> Standard</span>
           <span class="standard"><i class="fa fa-coffee"></i> Cafe</span>
@@ -19,14 +19,22 @@
     </div>
     <div class="facility">
       <div class="row">
-        <div class="col-md-3 col-3 ">
-          <p><i class="fa fa-snowflake-o" aria-hidden="true"></i><span>Ac Area</span></p>
+       
+            <div class="col-md-3 col-3 ">
+          <!-- <p><i class="fa fa-snowflake-o" aria-hidden="true"></i><span>Ac Area</span></p>
           <p><i class="fa fa-plug" aria-hidden="true"></i><span> Plugs</span></p>
-          <p><i class="fa fa-shower" aria-hidden="true"></i><span>Toilet</span></p>
-                
-        </div>
+          <p><i class="fa fa-shower" aria-hidden="true"></i><span>Toilet</span></p> -->
+          <p *ngFor="let offer of offersList"  >
+              <i [class]="offer.styleClass">
+              
+              </i>
+              <span>{{offer.label}}</span>
+            </p>
+          </div>
+    
+        <!-- </div> -->
         <div class="col-md-3 col-3 ">
-          <p><i class="fa fa-clock-o" aria-hidden="true"></i><span>Secure  </span>
+          <p><i class="fa fa-clock-o" aria-hidden="true"></i><span>Secure  </span></p>
               
           <p><span><i class="fa fa-cutlery" aria-hidden="true"></i>Food</span></p>
           <p><i class="fa fa-video-camera" aria-hidden="true"></i><span>CCTV</span></p>
