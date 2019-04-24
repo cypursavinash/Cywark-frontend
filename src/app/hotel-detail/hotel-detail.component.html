@@ -24,8 +24,9 @@
           <!-- <p><i class="fa fa-snowflake-o" aria-hidden="true"></i><span>Ac Area</span></p>
           <p><i class="fa fa-plug" aria-hidden="true"></i><span> Plugs</span></p>
           <p><i class="fa fa-shower" aria-hidden="true"></i><span>Toilet</span></p> -->
-          <p *ngFor="let offer of offersList"  >
-              <i [class]="offer.styleClass">
+          <p *ngFor="let offer of offersList; let i = index"   >
+              
+            <i *ng [class]="offer.styleClass">
               
               </i>
               <span>{{offer.label}}</span>
@@ -47,32 +48,26 @@
         <div class="col-md-1 ">
           <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
             aria-expanded="true" aria-controls="collapseOne">
-            <i class="	fa fa-angle-double-down"></i>
+            <i class="fa fa-angle-double-down"></i>
           </button>
         </div>
       </div>
       <div class="accordion" id="accordionExample">
         <div class="card">
-
-
           <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
             <div class="card-body">
               <div class="row">
-                <div class="col-md-3 col-3 ">
-                  
+                <div class="col-md-3 col-3 ">             
                   <p> <i class="fa fa-car" aria-hidden="true"></i><span>  Parking</span></p>
                   <p><i class="fa fa-lock" aria-hidden="true"></i><span>Locker</span></p>
-                  <p> <i class="fa fa-coffee" aria-hidden="true"></i><span>tea <span class="d-none d-sm-block">
-                      coffee</span></span></p>
-                        
+                  <p> <i class="fa fa-coffee" aria-hidden="true"></i><span>tea </span>  
+                                    
                 </div>
                 <div class="col-md-3 col-3 ">
                     <p> <i class="fa fa-users" aria-hidden="true"></i><span>Hall</span>
-                  <p><i class="fa fa-handshake-o" aria-hidden="true"></i><span>Meeting </span>
-                        
+                  <p><i class="fa fa-handshake-o" aria-hidden="true"></i><span>Meeting </span>            
                   <p><i class="fa fa-music" aria-hidden="true"></i> <span>music</span></p>
-                   
-                  
+                
                 </div>
                 <div class="col-md-3 col-3">
                   <p><i class="fa fa-road" aria-hidden="true"></i><span>On Road  </span>
@@ -88,14 +83,14 @@
         </div>
       </div>
 
-      <div class="rate">
+      <!-- <div class="rate">
 
 
-        <span class="price"> INR 24000/month </span>
+        <span class="price">{{this.price}} </span>
 
         <span class="btn-book"> book</span>
 
-      </div>
+      </div> -->
 
     </div>
   </div>

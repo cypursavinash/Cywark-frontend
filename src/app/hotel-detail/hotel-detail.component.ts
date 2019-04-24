@@ -14,6 +14,7 @@ export class HotelDetailComponent implements OnInit {
   locationCity:string = "Ahmedabad";
   locationPlace : string;
   offersList:Array<any>;
+  price:string;
   ngOnInit() {
     this.loadNavItems();
      
@@ -39,5 +40,6 @@ init(){
 this.locationName = "Royal plaza"
 this.locationPlace = this.locationCity;//+" , "+this.locationState;
 this.offersList = []
+this.price="24000";
 }
 }

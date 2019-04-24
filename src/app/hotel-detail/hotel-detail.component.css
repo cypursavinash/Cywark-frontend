@@ -21,7 +21,7 @@
  .hotel-info
  /* Name of hotel */
  {
-     padding:5px;
+     padding:10px;
      font-family: "Roboto";
  }
  
@@ -63,6 +63,11 @@
 {
     padding: 0;
 }
+.card
+ {
+     border:none;
+ }
+ 
  .rate
  /* rate and book section i.e fixed */
  {
@@ -116,11 +121,7 @@
      padding: 0;
      margin-left:14px;
  }
- .card p
- /* Collapse body section */
- {
-margin-bottom: 0;
- }
+ 
 }
 @media (min-width: 576px)
 {
