@@ -52,7 +52,10 @@
 {
     margin-bottom:0;
 }
- 
+ .panel-title
+ {
+     color:black;
+ }
  
   
  .price

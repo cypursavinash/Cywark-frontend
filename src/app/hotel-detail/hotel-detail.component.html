@@ -20,9 +20,7 @@
     <div class="row">
 
       <div class="col-md-4 col-4 ">
-        <!-- <p><i class="fa fa-snowflake-o" aria-hidden="true"></i><span>Ac Area</span></p>
-          <p><i class="fa fa-plug" aria-hidden="true"></i><span> Plugs</span></p>
-          <p><i class="fa fa-shower" aria-hidden="true"></i><span>Toilet</span></p> -->
+        
         <p *ngFor="let offer of offersList1">
 
           <i [class]="offer.styleClass">
@@ -32,9 +30,7 @@
         </p>
       </div>
       <div class="col-md-4 col-4 ">
-        <!-- <p><i class="fa fa-snowflake-o" aria-hidden="true"></i><span>Ac Area</span></p>
-              <p><i class="fa fa-plug" aria-hidden="true"></i><span> Plugs</span></p>
-              <p><i class="fa fa-shower" aria-hidden="true"></i><span>Toilet</span></p> -->
+        
         <p *ngFor="let offer of offersList2">
 
           <i [class]="offer.styleClass">
@@ -45,9 +41,7 @@
       </div>
 
       <div class="col-md-4 col-4 ">
-        <!-- <p><i class="fa fa-snowflake-o" aria-hidden="true"></i><span>Ac Area</span></p>
-                  <p><i class="fa fa-plug" aria-hidden="true"></i><span> Plugs</span></p>
-                  <p><i class="fa fa-shower" aria-hidden="true"></i><span>Toilet</span></p> -->
+         
         <p *ngFor="let offer of offersList3">
 
           <i [class]="offer.styleClass">
@@ -88,7 +82,7 @@
         </div>
         <div class="panel-heading">
           <h6 class="panel-title">
-            <a data-toggle="collapse" name="func" href="#collapse1" (click)="moreFacility(funValue)"  [(ngModel)]="funValue"  > >>  {{funValue}}</a>
+            <a data-toggle="collapse" name="func" href="#collapse1" (click)="moreFacility(funValue)">{{funValue}}</a>
           </h6>
      </div>  
      <div class="book-btn">

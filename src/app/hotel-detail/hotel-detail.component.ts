@@ -31,8 +31,9 @@ export class HotelDetailComponent implements OnInit {
 
   moreFacility(value: string)
   {
-    debugger;
+    // debugger;
     this.value1 = value;
+    console.log(this.value1);
     
     if(this.value1 == "More"){
       debugger;
