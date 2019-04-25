@@ -1,9 +1,10 @@
+ 
 <div class="background-body">
   <div class="container">
     <div class="page-body">
-      <div class="item"><img src="../assets/hotelpic1.jpg"></div>
+        <div class="item"><img src="../assets/hotelpic1.jpg"></div>
       <div class="hotel-info">
-        <h4>  {{locationName}} </h4>
+        <h4> {{locationName}} </h4>
         <span><i class="fa fa-map-marker" aria-hidden="true"></i>{{locationPlace}}</span>
         <!-- <div class="offers">
           <span class="standard"> Standard</span>
@@ -18,80 +19,84 @@
       </div>
     </div>
     <div class="facility">
-      <div class="row">
-       
-            <div class="col-md-3 col-3 ">
-          <!-- <p><i class="fa fa-snowflake-o" aria-hidden="true"></i><span>Ac Area</span></p>
+      <div class="row main-offer">
+        
+            <div class="col-md-4 col-3 ">
+              <!-- <p><i class="fa fa-snowflake-o" aria-hidden="true"></i><span>Ac Area</span></p>
           <p><i class="fa fa-plug" aria-hidden="true"></i><span> Plugs</span></p>
           <p><i class="fa fa-shower" aria-hidden="true"></i><span>Toilet</span></p> -->
-          <p *ngFor="let offer of offersList; let i = index"   >
-              
-            <i *ng [class]="offer.styleClass">
-              
-              </i>
-              <span>{{offer.label}}</span>
-            </p>
-          </div>
-    
-        <!-- </div> -->
-        <div class="col-md-3 col-3 ">
-          <p><i class="fa fa-clock-o" aria-hidden="true"></i><span>Secure  </span></p>
-              
-          <p><span><i class="fa fa-cutlery" aria-hidden="true"></i>Food</span></p>
-          <p><i class="fa fa-video-camera" aria-hidden="true"></i><span>CCTV</span></p>
-         </div>
-        <div class="col-md-3 col-3">
-          <p><i class="fa fa-credit-card-alt" aria-hidden="true"></i><span>E-cash</span></p>
-          <p> <i class="fa fa-tv" aria-hidden="true"></i><span> TV</span></p>
-          <p><i class="fa fa-cutlery" aria-hidden="true"></i><span>Service</span></p>
-        </div>
-        <div class="col-md-1 ">
-          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
-            aria-expanded="true" aria-controls="collapseOne">
-            <i class="fa fa-angle-double-down"></i>
-          </button>
-        </div>
-      </div>
-      <div class="accordion" id="accordionExample">
-        <div class="card">
-          <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-            <div class="card-body">
-              <div class="row">
-                <div class="col-md-3 col-3 ">             
-                  <p> <i class="fa fa-car" aria-hidden="true"></i><span>  Parking</span></p>
-                  <p><i class="fa fa-lock" aria-hidden="true"></i><span>Locker</span></p>
-                  <p> <i class="fa fa-coffee" aria-hidden="true"></i><span>tea </span>  
-                                    
-                </div>
-                <div class="col-md-3 col-3 ">
-                    <p> <i class="fa fa-users" aria-hidden="true"></i><span>Hall</span>
-                  <p><i class="fa fa-handshake-o" aria-hidden="true"></i><span>Meeting </span>            
-                  <p><i class="fa fa-music" aria-hidden="true"></i> <span>music</span></p>
-                
-                </div>
-                <div class="col-md-3 col-3">
-                  <p><i class="fa fa-road" aria-hidden="true"></i><span>On Road  </span>
-                        
-                    <p><span><i class="fa fa-bell-slash-o" aria-hidden="true"></i>noiseless</span></p>
-                  <p><i class="fa fa-wifi" aria-hidden="true"></i><span>Wifi</span></p>
-                </div>
-              </div>
+              <p *ngFor="let offer of offersList1">
 
+                <i [class]="offer.styleClass">
+
+                </i>
+                <span>{{offer.label}}</span>
+              </p>
+            </div>
+            <div class="col-md-4 col-3 ">
+              <!-- <p><i class="fa fa-snowflake-o" aria-hidden="true"></i><span>Ac Area</span></p>
+              <p><i class="fa fa-plug" aria-hidden="true"></i><span> Plugs</span></p>
+              <p><i class="fa fa-shower" aria-hidden="true"></i><span>Toilet</span></p> -->
+              <p *ngFor="let offer of offersList2">
+
+                <i [class]="offer.styleClass">
+
+                </i>
+                <span>{{offer.label}}</span>
+              </p>
+            </div>
+       
+            <div class="col-md-4 col-3 ">
+              <!-- <p><i class="fa fa-snowflake-o" aria-hidden="true"></i><span>Ac Area</span></p>
+                  <p><i class="fa fa-plug" aria-hidden="true"></i><span> Plugs</span></p>
+                  <p><i class="fa fa-shower" aria-hidden="true"></i><span>Toilet</span></p> -->
+              <p *ngFor="let offer of offersList3">
+
+                <i [class]="offer.styleClass">
+
+                </i>
+                <span>{{offer.label}}</span>
+              </p>
+            </div>
+      </div>
+           <div class="row11">
+              <mat-expansion-panel border="1px">          
+                    <mat-expansion-panel-header class="panel-button" > More facility
+        </mat-expansion-panel-header>
+        <div class="row"> 
+            <div class="col-md-3 col-3 ">
+              <p> <i class="fa fa-car" aria-hidden="true"></i><span>Park</span></p>
+              <p><i class="fa fa-lock" aria-hidden="true"></i><span>Locker</span></p>
+              <p> <i class="fa fa-coffee" aria-hidden="true"></i><span>tea </span>
 
             </div>
+            <div class="col-md-3 col-3 ">
+              <p> <i class="fa fa-users" aria-hidden="true"></i><span>Hall</span></p>
+
+              <p> <i class="fa fa-tv" aria-hidden="true"></i><span>TV</span></p>
+              <p><i class="fa fa-music" aria-hidden="true"></i> <span>music</span></p>
+
+            </div>
+            <div class="col-md-3 col-3">
+              <p><i class="fa fa-road" aria-hidden="true"></i><span>On Road</span>
+
+                <p><i class="fa fa-bell-slash" aria-hidden="true"></i><span> slient</span></p>
+                <p><i class="fa fa-wifi" aria-hidden="true"></i><span>Wifi</span></p>
+            </div>
           </div>
+            </mat-expansion-panel>
         </div>
+      <div class="card-action rate">
+       <span class="price"><a href=""> {{this.price}}</a>  </span>
+        <span class="btn-book"> <a href="">book</a></span>
+
       </div>
-
-      <!-- <div class="rate">
-
-
-        <span class="price">{{this.price}} </span>
-
-        <span class="btn-book"> book</span>
-
-      </div> -->
 
     </div>
   </div>
 </div>
+ 
+
+
+
+ 

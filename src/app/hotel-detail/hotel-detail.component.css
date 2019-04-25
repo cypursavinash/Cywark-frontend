@@ -2,7 +2,7 @@
 .background-body
 {
     background-color:#e7e6e6;
-    width:50%;
+    width:80%;
     margin:auto;
     
     
@@ -36,17 +36,16 @@
 {
          
         background-color: white;
-        
-         
-        box-shadow: 2px 2px 2px 2px #9b9b9b;
-        
+        box-shadow: 2px 2px 2px 2px #9b9b9b;       
          padding:10px;
+         border:1px solid lightblue;
+         border-bottom: 3px solid #9b9b9b
         
 }
 .facility  span
 {
     color: #9b9b9b;
-    font-size: 14px;
+    font-size: 12px;
 
 }
 .facility   i
@@ -58,6 +57,10 @@
     color:black;
     margin-right:10px;
 }
+.main-offer
+{
+    margin-bottom:0;
+}
 .card-body 
      /* collapse body */
 {
@@ -68,14 +71,11 @@
      border:none;
  }
  
- .rate
+ .card-action.rate
  /* rate and book section i.e fixed */
  {
-     position:fixed;
-     background-color: red;
-     bottom: 0;
-     width:50%;
-     height:5%;
+  font-size: 18px;
+     
  }
  .price
  {
@@ -87,6 +87,7 @@
      float: right;
      padding:10px;
  }
+  
 @media only screen and (max-width: 768px) {
  .background-body
  {
@@ -105,15 +106,10 @@
       font-size: 12px;
   }
    
- .facility .fa
- /* font awesom of .facility */
-{
-
-    display: none;
-}
+ 
  .facility span
  {
-     font-size: 12px;
+     font-size: 14px;
       
  }
  .facility .col-md-3
@@ -121,21 +117,35 @@
      padding: 0;
      margin-left:14px;
  }
+ .facility .col-md-4.col-4 {
+    padding: 0;
+}
  
 }
-@media (min-width: 576px)
+@media (max-width: 576px)
 {
     .facility span  .d-sm-block {
     display: inline-block !important;
      margin-bottom: 0;
 }
+.facility span
+{
+    font-size: 10px;
+     
 }
+}
+
 @media (max-width:400px)
 {
- .facility .fa
+ .facility span
  {
      display: none;
+ }
+ .facility .fa
+ {
+     display: inline;
  }
 
 
 }
+/* @media (ma) */
