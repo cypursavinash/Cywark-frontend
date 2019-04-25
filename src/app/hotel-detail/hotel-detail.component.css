@@ -1,12 +1,4 @@
-
-.background-body
-{
-    background-color:#e7e6e6;
-    width:80%;
-    margin:auto;
-    
-    
-}
+ 
 .container
 {
     margin-top:30px;
@@ -14,8 +6,7 @@
 .page-body
 {
     align:center;
-    box-shadow: 2px 2px 2px 2px #9b9b9b;
-
+    box-shadow: 2px 2px 2px 2px #e7e4e4;
     background-color:#fff;
 }
  .hotel-info
@@ -36,10 +27,10 @@
 {
          
         background-color: white;
-        box-shadow: 2px 2px 2px 2px #9b9b9b;       
-         padding:10px;
-         border:1px solid lightblue;
-         border-bottom: 3px solid #9b9b9b
+        
+         padding: 0 10px;
+         box-shadow: 0 8px 4px -9px black;
+         box-shadow: 2px 2px 2px 2px #e7e4e4;
         
 }
 .facility  span
@@ -87,7 +78,10 @@
      float: right;
      padding:10px;
  }
-  
+ .panel-body
+ {
+     padding: 0;
+ }
 @media only screen and (max-width: 768px) {
  .background-body
  {
@@ -143,7 +137,7 @@
  }
  .facility .fa
  {
-     display: inline;
+     /* display: inline; */
  }
 
 

@@ -12,6 +12,7 @@ export class HotelDetailComponent implements OnInit {
   locationName: string;
   locationState:string = "Gujarat";
   locationCity:string = "Ahmedabad";
+  more:string = "more";
   locationPlace : string;
   offersList1:Array<any>;
   offersList2:Array<any>;
@@ -40,7 +41,7 @@ export class HotelDetailComponent implements OnInit {
       {"styleClass":"fa fa-shower","label":"Toilet"}
     ]
    }
-  
+   
 
   loadNavItems() {
     // this.navItems = this.http.get("../json_data/data.json");
@@ -53,5 +54,6 @@ this.locationName = "Royal plaza"
 this.locationPlace = this.locationCity;//+" , "+this.locationState;
 this.offersList1 = []
 this.price="24000";
+
 }
 }
