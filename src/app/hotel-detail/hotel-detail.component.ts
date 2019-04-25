@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DebugRenderer2 } from '@angular/core/src/view/services';
 // import { Http, Response } from '@angular/http';
 @Component({
   selector: 'app-hotel-detail',
@@ -10,17 +11,46 @@ export class HotelDetailComponent implements OnInit {
   navItems: any;
   // constructor(private http: Http) { }
   locationName: string;
+  
   locationState:string = "Gujarat";
   locationCity:string = "Ahmedabad";
-  more:string = "more";
+  // more:string = "more";
+ 
+  funValue:string="More";
+
+  name1:string="";
   locationPlace : string;
   offersList1:Array<any>;
   offersList2:Array<any>;
      offersList3:Array<any>;
   price:string;
+  fun: string;
+  value1 = '';
+    
+
+
+  moreFacility(value: string)
+  {
+    debugger;
+    this.value1 = value;
+    
+    if(this.value1 == "More"){
+      debugger;
+     this.funValue = "Less";
+     this.name1 = this.funValue;
+    }
+    else{
+     this.funValue = "More";
+     this.name1 = this.funValue;
+    }
+   
+   debugger;
+
+  }
+
   ngOnInit() {
     this.loadNavItems();
-     
+    
     this.init();
     this.offersList1 = []
     this.offersList2 = []
@@ -41,7 +71,8 @@ export class HotelDetailComponent implements OnInit {
       {"styleClass":"fa fa-shower","label":"Toilet"}
     ]
    }
-   
+  
+
 
   loadNavItems() {
     // this.navItems = this.http.get("../json_data/data.json");
@@ -54,6 +85,7 @@ this.locationName = "Royal plaza"
 this.locationPlace = this.locationCity;//+" , "+this.locationState;
 this.offersList1 = []
 this.price="24000";
+this.fun=this.funValue;
 
 }
 }

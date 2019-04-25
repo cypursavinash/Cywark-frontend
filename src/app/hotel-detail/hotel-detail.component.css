@@ -19,8 +19,8 @@
  .item img
  {
      width: 100%;
-
- }
+     height: 20%;
+     }
 
  
 .facility
@@ -52,36 +52,21 @@
 {
     margin-bottom:0;
 }
-.card-body 
-     /* collapse body */
-{
-    padding: 0;
-}
-.card
- {
-     border:none;
- }
  
- .card-action.rate
- /* rate and book section i.e fixed */
- {
-  font-size: 18px;
-     
- }
+ 
+  
  .price
  {
      float: left;
      padding:10px;
  }
- .btn-book
+ 
+ .more-hotel
  {
-     float: right;
+     float:right;
      padding:10px;
  }
- .panel-body
- {
-     padding: 0;
- }
+  
 @media only screen and (max-width: 768px) {
  .background-body
  {
