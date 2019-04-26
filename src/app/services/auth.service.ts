@@ -51,15 +51,11 @@ export class AuthService {
       password: user.password
     } 
 
-    return userRef.set(name, { merge: true })
+    return userRef.set(user, { merge: true })
 
   }
 
-  async signOut() {
-    await this.afAuth.auth.signOut();
-    this.router.navigate(['/']);
-  }
-
+   
  
    
 
