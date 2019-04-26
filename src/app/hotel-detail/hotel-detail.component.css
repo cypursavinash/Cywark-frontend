@@ -56,20 +56,23 @@
  {
      color:black;
  }
- 
-  
  .price
  {
      float: left;
-     padding:10px;
+      
  }
  
  .more-hotel
  {
      float:right;
-     padding:10px;
- }
   
+ }
+ .book-btn button
+  {
+      background-color:#9b9b9b;
+      color:rgb(236, 230, 230);
+      margin:auto;
+  }
 @media only screen and (max-width: 768px) {
  .background-body
  {
