@@ -13,6 +13,7 @@ import { switchMap } from 'rxjs/operators';
 @Injectable({ providedIn: 'root' })
 export class AuthService {
   user$: Observable<User>;
+  userName : string;
   constructor(
     private afAuth: AngularFireAuth,
     private afs: AngularFirestore,
@@ -47,7 +48,7 @@ export class AuthService {
       console.log(token);
       // The signed-in user info.
       var user = result.user;
-      console.log(user);
+      console.log(this.user);
           var userName = user.displayName;
       var emailAddress=user.email;
       console.log(  userName);
