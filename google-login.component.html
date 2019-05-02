@@ -1,0 +1,15 @@
+  <div class="form">
+    <table>
+<div *ngIf="(user | async) || {} as user">
+  <ion-button  class="sign" *ngIf="!user.uid" (click)="googleLogin()">
+   <P> Login with google</P>
+  </ion-button>
+  <div *ngIf="user.uid">
+   <p> You are already login in with UID:{{user.id}}<br></p>
+    <ion-button class="sign" (click)="signOut()">
+      Sign out
+    </ion-button>
+  </div>
+</div>
+</table>
+</div>
